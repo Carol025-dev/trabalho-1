@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ana Carolina Marques</title>
+<style>
+    a{
+        color: blue;
+    }
+    a:hover{ 
+        color: red;     
+    }
+    
+    body{
+        background-color: beige;
+    }
+
+    button {
+        display: block;    
+        margin: 20px auto;
+        padding: 20px;;
+        border: 3px solid black;        ;
+        border-radius: 24px;
+        cursor: pointer;
+        background-color: blueviolet;
+        color:whitesmoke;
+        size: 70px;
+
+        }
+
+        #mensagem{
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+</style>
+</head>
+
+<body>
+    
+    <h1 style="color: blueviolet; text-align: center;"> Ana Carolina Marques</h1>
+
+    <h4>Quem sou eu</h4>
+
+    <p style="font-size: larger; text-align: justify;"> Meu nome é Ana Carolina, mas gosto de ser chamada de Carol. Somente minha mãe me chama de "Ana Carolina" (e quando está brava).Tenho 34 anos de idade. Nasci em Cambuí, Minas Gerias. Porém, moro em São José dos Pinhas, Paraná, há 10 anos. Sou formada e tenho mestrado em Letras. Em 2022, comecei um processo de transição de carreira. Iniciei um MBA em Produtos Digitais em 2023. Atualmente, trabalho como Coordenadora de Sucesso do Cliente em uma plataforma educacional.
+    
+    <br>
+
+     <button onclick="mostrarMensagem()">Clique aqui para ver uma mensagem!</button>  
+
+     <div id="mensagem"></div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText = "Oiê! Bem-vinda/Bem-vindo! ;)";
+        } 
+    </script> 
+        <br>
+
+    <h4>Meus hobbies</h4>
+        
+    <ul>
+        <li style="margin-bottom: 30px;">1- Viajar</li>
+        <li style="margin-bottom: 30px;">2- Cozinhar</li>
+        <li style="margin-bottom: 30px;">3- Ver filmes e séries</li>
+        
+    </ul>
+    
+       
+   <figure> 
+   <img src="Viagem.jpg" alt="Abril de 2025, São Miguel dos Milagres, Alagoas" width="300px" height="400px" style="margin: 20px; border-radius: 25px;">
+    <figcaption> Abril de 2025, São Miguel dos Milagres, Alagoas </figcaption>
+   </figure>
+   
+   <br>
+   <h4>Países que sonho visitar</h4> 
+
+   <table border="3" style="color: blueviolet; background-color: whitesmoke; border-color: blueviolet;">
+    <tr>
+        <td>Singapura</td>
+        <td>Espanha</td>
+        <td>Vietnam</td>
+    </tr>
+    <tr>
+        <td><img src="Singapura.jpg" width="300px"></td>
+        <td><img src="Espanha.jpeg" width="300"></td>
+        <td><img src="Vietnam.jpeg" width="300" alt=""></td>
+
+    </tr>
+   </table>
+
+   <br>
+
+   <h4>Acesso sempre que posso para saber sobre cultura pop</h4>
+   <a href="https://www.omelete.com.br" style=>Clique aqui para ver o site</a>
+
+   
+</body>
+</html>
